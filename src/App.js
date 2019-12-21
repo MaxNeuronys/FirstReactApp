@@ -9,8 +9,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+       <div className="d-flex flex-row" >
         <MovieList />
         <MovieDetails />
+       </div>
+        
       </div>
     )
   }
