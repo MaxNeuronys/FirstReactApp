@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+export {default as Header} from './header/Header'
+export {default as MovieDetails} from './movie-details/MovieDetails'
+export {default as MovieList} from './movie-list/MovieList'
+export {default as MovieElement} from './movie-list/MovieElement'
+
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
